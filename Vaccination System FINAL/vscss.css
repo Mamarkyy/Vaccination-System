@@ -1,0 +1,173 @@
+body {
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+}
+input {
+	width: 100%;
+	border: 1px solid white;
+	transition-duration: 0.5s;
+	border-radius: 3px;
+}
+input[type="text"] {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+input[type="password"] {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+input[type="date"] {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+table, th, td {
+	color: white;
+}
+.ud {
+	font-size: small;
+}
+.inputlf {
+	height: 25px;
+}
+.inputud {
+	height: 20px;
+}
+.tablecont {
+	height: auto;
+	width: 95%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.container {
+	height: 390px;
+	width: 26%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.containerlf {
+  width: 75%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.lgcnt {
+	width: 98%;
+}
+.lgbtn {
+	color: white;
+	height: 45px;
+	width: 80px;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+}
+.lgbtn:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 18px;
+}
+.containerud {
+	height: 615px;
+	width: 35%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.textfield {
+	width: 50%;
+	height: 50%;
+}
+.containerud2 {
+	width: 85%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.containerind {
+	height: 543px;
+	width: 35%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.loginbtn {
+	color: white;
+	height: 45px;
+	width: 40%;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+	font-family: Arial;
+	font-size: 24px;
+}
+.loginbtn:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 24px;
+}
+.lgn:link {
+	color: white;
+	text-decoration: none;
+}
+.lgn:visited {
+	color: white;
+	text-decoration: none;
+}
+.lgn:hover {
+	color: black;
+	transition-duration: 0.5s;
+	text-decoration: none;
+}
+.fyp:link {
+	color: white;
+	text-decoration: none;
+}
+.fyp:visited {
+	color: white;
+	text-decoration: none;
+}
+.fyp:hover {
+	text-decoration: underline;
+}
+.error {
+
+   background: #F2DEDE;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 95%;
+
+   border-radius: 5px;
+
+   margin: 20px auto;
+
+}

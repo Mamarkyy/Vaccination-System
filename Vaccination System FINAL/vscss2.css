@@ -1,0 +1,44 @@
+.containerrd {
+	height: 345px;
+	width: 50%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.containerrd2 {
+	width: 95%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.searchplacement {
+	height: auto;
+	width: 95%;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.searchwd {
+	width: 15%;
+}
+.backbtn {
+	color: white;
+	height: 40px;
+	width: 7%;
+	font-weight: bold;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+	font-family: Arial;
+	font-size: 15px;
+}
+.backbtn:hover {
+	color: black;
+	background-color: white;
+}

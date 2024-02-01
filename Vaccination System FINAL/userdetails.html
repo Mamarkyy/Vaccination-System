@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="vscss.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>User Details</title>
+</head>
+<body>
+	<br>
+	<div class="containerud">
+		<div class="containerud2">
+			<font color="white" face="Arial"><center><h2>VACCINATION FORM</h2>
+			<p style="color: red; font-size: xx-small; font-weight: bold;">* Please re-log in once you're finished.</p></center>
+			<form action="userdetails.php" method="POST">
+				<p class = ud>First Name:</p>
+				<input class="inputud" type="text" name="firstname" placeholder="First Name">
+
+				<p class = ud>Last Name:</p>
+				<input class="inputud" type="text" name="lastname" placeholder="Last Name">
+
+				<p class = ud>Middle Name:</p>
+				<input class="inputud" type="text" name="middlename" placeholder="Middle Name">
+
+				<p class = ud>Category:</p>
+				<input class="inputud" type="text" name="category" value="To Be Displayed by an Admin" readonly>
+
+				<p class = ud>Address:</p>
+				<input class="inputud" type="text" name="address" placeholder="Complete Address">
+
+				<p class = ud>Date of First Dose: (Will Be Changed by an Admin)</p>
+				<input class="inputud" type="date" name="firstdose" value="1881-01-08" readonly>
+
+				<p class = ud>Date of Second Dose: (Will Be Changed by an Admin)</p>
+				<input class="inputud" type="date" name="seconddose" value="1881-01-08" readonly>
+
+				<br> <br> </font>
+				<center><button class="loginbtn" type="submit">Continue</button></center>
+			</form></center>
+	</div>
+	</div>
+</body>
+</html>
